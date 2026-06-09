@@ -27,7 +27,8 @@ node desafios/classificacao-media-app.js
 
 🎯 Regras de Negócio e Lógica aplicada
 
-O sistema lê a nota e retorna uma das três classificações abaixo:
+O sistema inica perguntando qual aluno voce gostaria de classificar a nota
+atraves da resposta ele lê a nota e retorna uma das três classificações abaixo:
 
 Média do Aluno	
 
@@ -38,6 +39,10 @@ Menor que 5	REP = (Reprovado) ❌	O aluno precisa refazer a matéria.
 Entre 5 e 6.9	REC = (Recuperação) ⚠️	O aluno terá direito a uma prova de recuperação.
 
 7 ou superior	APR = (Aprovado) 🎉	O aluno foi aprovado e concluiu o período.
+
+Apos isso ele retorna a lista de Alunos e pede para selecionar o proximo a classificar.
+No final ele dá um Relatorio dos alunos com notas e descrição de APR , REC , REP.
+Deixando assim as informações claras sobre o mesmo.
 
 🛠️ Tecnologias Utilizadas
 
